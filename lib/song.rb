@@ -10,7 +10,6 @@ class Song
     new_song = self.new(filename)
     new_song.parse_filename(filename)
     new_song
-
   end
 
   def parse_filename(filename)
